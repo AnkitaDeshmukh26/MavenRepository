@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35024" started-at="2021-02-02T09:27:54Z" finished-at="2021-02-02T09:28:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35024" started-at="2021-02-02T09:27:54Z" finished-at="2021-02-02T09:28:29Z">
+      <class name="pOM_package.UsersTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:pOM_package.UsersTest@46d56d67]" name="setup" is-config="true" duration-ms="15720" started-at="2021-02-02T14:57:54Z" finished-at="2021-02-02T14:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sortUsers()[pri:1, instance:pOM_package.UsersTest@46d56d67]" name="sortUsers" duration-ms="3338" started-at="2021-02-02T14:58:10Z" finished-at="2021-02-02T14:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortUsers -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:pOM_package.UsersTest@46d56d67]" name="setup" is-config="true" duration-ms="12524" started-at="2021-02-02T14:58:14Z" finished-at="2021-02-02T14:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checksuffix()[pri:2, instance:pOM_package.UsersTest@46d56d67]" name="checksuffix" duration-ms="3406" started-at="2021-02-02T14:58:26Z" finished-at="2021-02-02T14:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksuffix -->
+      </class> <!-- pOM_package.UsersTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
