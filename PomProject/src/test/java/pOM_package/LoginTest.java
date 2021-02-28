@@ -9,6 +9,7 @@ public class LoginTest {
 	WebDriver driver;
 	LoginPage lp;
 	//login
+
 	@BeforeMethod
 	public void setUp()
 	{
