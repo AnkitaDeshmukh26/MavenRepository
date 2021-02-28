@@ -16,7 +16,7 @@ public class DashboardTest {
 	@BeforeMethod
 	public void setUp()
 	{
-		System.setProperty("webdriver.chrome.driver","Driver/chromedriver2.exe");
+		System.setProperty("webdriver.chrome.driver","Driver/chromedriver3.exe");
 		driver=new ChromeDriver();
 		driver.get("file:///D:/Selenium/softwares/Sel/Offline website/index.html");
 		driver.manage().window().maximize();

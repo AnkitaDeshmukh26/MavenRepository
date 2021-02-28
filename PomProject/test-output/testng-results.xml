@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35024" started-at="2021-02-02T09:27:54Z" finished-at="2021-02-02T09:28:29Z">
+  <suite name="Default suite" duration-ms="37304" started-at="2021-02-27T05:46:31Z" finished-at="2021-02-27T05:47:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35024" started-at="2021-02-02T09:27:54Z" finished-at="2021-02-02T09:28:29Z">
-      <class name="pOM_package.UsersTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:pOM_package.UsersTest@46d56d67]" name="setup" is-config="true" duration-ms="15720" started-at="2021-02-02T14:57:54Z" finished-at="2021-02-02T14:58:10Z">
+    <test name="Default test" duration-ms="37304" started-at="2021-02-27T05:46:31Z" finished-at="2021-02-27T05:47:08Z">
+      <class name="pOM_package.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pOM_package.LoginTest@46d56d67]" name="setUp" is-config="true" duration-ms="30200" started-at="2021-02-27T11:16:31Z" finished-at="2021-02-27T11:17:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="sortUsers()[pri:1, instance:pOM_package.UsersTest@46d56d67]" name="sortUsers" duration-ms="3338" started-at="2021-02-02T14:58:10Z" finished-at="2021-02-02T14:58:14Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:pOM_package.LoginTest@46d56d67]" name="validLogin" duration-ms="6631" started-at="2021-02-27T11:17:01Z" finished-at="2021-02-27T11:17:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sortUsers -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:pOM_package.UsersTest@46d56d67]" name="setup" is-config="true" duration-ms="12524" started-at="2021-02-02T14:58:14Z" finished-at="2021-02-02T14:58:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checksuffix()[pri:2, instance:pOM_package.UsersTest@46d56d67]" name="checksuffix" duration-ms="3406" started-at="2021-02-02T14:58:26Z" finished-at="2021-02-02T14:58:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checksuffix -->
-      </class> <!-- pOM_package.UsersTest -->
+        </test-method> <!-- validLogin -->
+      </class> <!-- pOM_package.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
